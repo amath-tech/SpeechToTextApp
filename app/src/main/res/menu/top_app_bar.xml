@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/speechToText"
+      android:icon="@drawable/ic_baseline_mic"
+        android:title="@string/speech_to_tex"/>
+
+    <item android:id="@+id/textToSpeech"
+        android:icon="@drawable/ic_baseline_hearing_24"
+        android:title="@string/text_to_speec"/>
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/setting"/>
+
+</menu>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pathRelative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="15dp"
+            android:text="@string/settings"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/allLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/settings_back"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/icon1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_info_24" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3 "
+                android:gravity="center_vertical"
+                android:text="@string/about"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/fourth"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/first"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/settings_back"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/icon4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_description_24" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3 "
+                android:gravity="center_vertical"
+                android:text="@string/faq"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fifth"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/fourth"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/settings_back"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/icon5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_share_24" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3 "
+                android:gravity="center_vertical"
+                android:text="@string/share"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sixth"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/fifth"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/settings_back"
+            android:weightSum="4">
+
+            <ImageView
+                android:id="@+id/icon6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_star_rate_24" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="3 "
+                android:gravity="center_vertical"
+                android:text="@string/rate_us"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
